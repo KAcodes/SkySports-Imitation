@@ -1,5 +1,5 @@
 .headerLeft {
-  background-color: blue;
+  background-color: rgb(10, 10, 117);
   text-align: right;
   
   color: white;
@@ -14,9 +14,13 @@
   border-bottom: 1px solid lightgrey
 }
 
+.right-sec {
+  background-color: lightgrey;
+}
+
 
 .headerRight {
-  background-color: red;
+  background-color: rgb(197, 0, 0);
   color: white;
 }
 
@@ -29,3 +33,11 @@ body {
   font-family: skyFont
 }
 
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.side-pic {
+  max-width: 100%;
+}

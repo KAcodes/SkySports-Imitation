@@ -4,7 +4,14 @@ import {Container, Row, Col, Image} from 'react-bootstrap';
 import Navigationbar from './components/Navbar';
 import SecondHeader from './components/SecondHeader'
 import BlogItem from './components/BlogItem';
+
 import profPic from "./imagesAndFonts/intropic.jpg";
+import saka from './imagesAndFonts/saka.jpg';
+import messi from './imagesAndFonts/messi.jpg';
+import ronaldo from './imagesAndFonts/ronaldo.jpg';
+import arsenal from './imagesAndFonts/arsenal.jpg';
+import ronaldinho from './imagesAndFonts/ronaldinho.jpg';
+
 import premTable from './imagesAndFonts/premTable.jpg';
 
 function App() {
@@ -19,23 +26,35 @@ function App() {
                   <Row>
                     <Col sm={8}>
                         <Col>
-                          <BlogItem img={profPic}/>
+                          <BlogItem img={saka} main={true} header='Breaking News' content='Bukayo Saka voted best young player in the world'
+                          />
                         </Col>
                         <Row>
                           <Col sm={6}>
-                            <BlogItem img={profPic}/>
+                            <BlogItem img={arsenal} main={true} header='arsenal back to top' content='Arsenal top the league after brilliant spurs win'/>
                           </Col>
                           <Col sm={6}>
-                            <BlogItem img={profPic}/>
+                            <BlogItem img={messi} main={true} header='Argentina wins wc' content='messi takes goat status with wc win'/>
                           </Col>
+                        </Row>
+                        <Row><Col>
+                          <BlogItem img={ronaldo} main={false} header='Ronaldo stoops even lower' content='Forward signs for unknown saudi arabian team after terrible WC EXIT'/></Col>
+                        </Row>
+                        <Row><Col>
+                          <BlogItem img={ronaldinho} main={false} header='the man, the myth, the legend' content='The story of Ronaldinho: the games greatest showman'/></Col>
+                        </Row>
+                        <Row><Col>
+                          <BlogItem img={profPic} main={false} header='apena to sign for arsenal' content='arteta finally brings in £60 million man after months of negotiating'/></Col>
                         </Row>
                     </Col>
 
-                    <Col sm={4}>
+                    <Col className='right-sec' sm={4}>
                       <Image fluid id='prem' src={premTable}/>
                     </Col> 
                   </Row>
-                  <Col></Col>
+                  <Col>
+                  <a href="https://www.skysports.com/football" target='_blank' >Click here to see the real Page</a>
+                  </Col>
                   
                 </Col>
                 <Col className='headerMargins' md={1}></Col>
