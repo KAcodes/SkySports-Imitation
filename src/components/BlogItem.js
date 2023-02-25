@@ -1,15 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Row, Col } from 'react-bootstrap';
 
 
-const lo = require('lodash')
 
-const title = lo.random(7, 20)
+
 const BlogItem = (props) => {
 
 
-    const mainItem = (<div className='card text-center' >
+    const mainItem = (<div className='card text-center my-2' >
                     <img className="card-img-top fluid" src={props.img} alt="Card image cap" />
                     <div className="card-body">
                         <h3  className="card-title">{props.header}</h3>
@@ -18,7 +16,7 @@ const BlogItem = (props) => {
                     </div>
                 </div>)
 
-                const smallerItem = (<div className="card text-center">
+                const smallerItem = (<div className="card text-center my-1">
                 <div className="card-horizontal">
                     <div className="img-square-wrapper">
                         <img style={{height: '100%'}} className="side-pic" src={props.img} alt="Card image cap"/>
