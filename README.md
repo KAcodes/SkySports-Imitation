@@ -1,38 +1,41 @@
-# Getting Started with Create React App
+# Website Imitation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+This task composed of creating a visual imitation of any website/application of our choice to practice being able to style a React page to a certain specification. As a football fan I decided to build a copy of the SkySports football page which can be accessed here
+[Real Page](https://www.skysports.com/football)
+<a href="https://www.skysports.com/football" target="_blank">Sky sports</a>
 
-In the project directory, you can run:
+##Comparisons
 
-### `npm start`
+### My Page
+![image](https://user-images.githubusercontent.com/61561703/221356960-e92a1bf2-cc52-4812-bfa6-e10f9dcb4ee1.png)
+![image](https://user-images.githubusercontent.com/61561703/221356982-9fdfb0d5-219e-4218-98ed-a173fdec18a4.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Real Page
+![image](https://user-images.githubusercontent.com/61561703/221356890-7b34638b-6444-42de-a003-1be360f4d1ec.png)
+![image](https://user-images.githubusercontent.com/61561703/221356939-932a0fbf-eb69-4605-b6a7-803047f356ef.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## How to install and run this project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1) Open your terminal and navigate to the folder you want to install my project, then type
 
-### `npm run build`
+  $ git clone https://github.com/KAcodes/Hangman-Game.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  This clones the repo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2) cd into the new folder and type
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  $ npm install 
 
-### `npm run eject`
+  This installs the required dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3) To run the React project type 
 
+  $ npm start
+
+  The app will then run in development mode with path http://localhost:3000 in your browser.
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
