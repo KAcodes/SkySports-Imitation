@@ -5,7 +5,7 @@ import Navigationbar from './components/Navbar';
 import SecondHeader from './components/SecondHeader'
 import BlogItem from './components/BlogItem';
 
-import profPic from "./imagesAndFonts/intropic.jpg";
+import me_festival from "./imagesAndFonts/me_festival.jpg";
 import saka from './imagesAndFonts/saka.jpg';
 import messi from './imagesAndFonts/messi.jpg';
 import ronaldo from './imagesAndFonts/ronaldo.jpg';
@@ -44,7 +44,7 @@ function App() {
                           <BlogItem img={ronaldinho} main={false} header='the man, the myth, the legend' content='The story of Ronaldinho: the games greatest showman'/></Col>
                         </Row>
                         <Row><Col>
-                          <BlogItem img={profPic} main={false} header='apena to sign for arsenal' content='arteta finally brings in £60 million man after months of negotiating'/></Col>
+                          <BlogItem img={me_festival} main={false} header='apena to sign for arsenal' content='arteta finally brings in £60 million man after months of negotiating'/></Col>
                         </Row>
                     </Col>
 
