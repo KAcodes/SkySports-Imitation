@@ -2,8 +2,10 @@
 
 ## Project Description
 
-This task composed of creating a visual imitation of any website/application of our choice to practice being able to style a React page to a certain specification. As a football fan I decided to build a copy of the SkySports football page which can be accessed here:
+This bootcamp task composed of creating a visual imitation of any website/application of our choice to practice being able to style a React page to a certain specification. As a football fan I decided to build a copy of the SkySports football page which can be accessed here:
 <a href="https://www.skysports.com/football" target="_blank">Real Page</a>.
+
+<a href="skysportclone.netlify.app" target="_blank">Click here to open my clone page</a>.
 
 The page was styled using CSS and react-bootstrap. This is the first of my website imitation pages.
 
